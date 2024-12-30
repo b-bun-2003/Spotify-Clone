@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Anime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of Anime - Premium Collection</h1>
+            <div class="songItemContainer"> 
+                <div class="SongItem">
+                    <img src="Covers/Unravel.jpg" alt="1">
+                    <span>Unravel</span>
+                    <span class="songlistplay"><span class="timeStamp" style="cursor: pointer;">01:34 <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="Covers/Ultra Instinct Theme.png" alt="1">
+                    <span>Ultra Instinct Theme</span>
+                    <span class="songlistplay"><span class="timeStamp" style="cursor: pointer;">02:47 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="Covers/Overtaken.jpeg" alt="1">
+                    <span>Overtaken</span>
+                    <span class="songlistplay"><span class="timeStamp" style="cursor: pointer;">01:59 <i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="Covers/Senya - Itachi.jpg" alt="1">
+                    <span>Senya - Itachi</span>
+                    <span class="songlistplay"><span class="timeStamp" style="cursor: pointer;">02:09 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="Covers/Haruka Mirai.jpg" alt="1">
+                    <span>Haruka Mirai</span>
+                    <span class="songlistplay"><span class="timeStamp" style="cursor: pointer;">03:04 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="Covers/Shinzou Wo Sasageyo.png" alt="1">
+                    <span>Shinzou Wo Sasageyo</span>
+                    <span class="songlistplay"><span class="timeStamp" style="cursor: pointer;">01:29 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="Covers/You Say Run.jpg" alt="1">
+                    <span>You Say Run</span>
+                    <span class="songlistplay"><span class="timeStamp" style="cursor: pointer;">03:48 <i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="SongInfo">
+            <span id="masterSongName">Unravel</span>
+        </div>
+        <div class="SongImage">
+            <img id="masterSongImage" src="Covers/Unravel.jpg" alt="1" width="100px">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/98153438ab.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
